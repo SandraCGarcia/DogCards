@@ -17,10 +17,13 @@ export const CardHeader = styled.div`
 `;
 
 export const CardHeaderPhoto = styled.img`
-    width: 15%;
-    height: 15%;
+    width: 70px;
+    height: 70px;
     margin: 10px;
     border: 5px solid #14bf9f; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 `;
 
 export const CardHeaderTitle = styled.h1`

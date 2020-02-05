@@ -63,11 +63,14 @@ class Mediacard extends React.Component {
     console.log(birthday);
 
     return (
+      console.log(this.props.photo),
     <CardContainer>
 
       <CardHeader>
 
-          <CardHeaderPhoto src={this.props.photo}/>
+          <CardHeaderPhoto style={{backgroundImage: "url(" + this.props.photo + ")"}} />
+          
+
 
           <div>
               <CardHeaderTitle>{this.props.name}
