@@ -68,9 +68,7 @@ class Mediacard extends React.Component {
 
       <CardHeader>
 
-          <CardHeaderPhoto style={{backgroundImage: "url(" + this.props.photo + ")"}} />
-          
-
+          <CardHeaderPhoto photo={this.props.photo} />
 
           <div>
               <CardHeaderTitle>{this.props.name}

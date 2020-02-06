@@ -14,13 +14,15 @@ export const CardHeader = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start; 
+    
 `;
 
 export const CardHeaderPhoto = styled.img`
     width: 70px;
     height: 70px;
-    margin: 10px;
-    border: 5px solid #14bf9f; 
+    margin-right: 10px;
+    border: 5px solid #2bc7b5; 
+    background-image: url(${props => props.photo});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,6 +31,8 @@ export const CardHeaderPhoto = styled.img`
 export const CardHeaderTitle = styled.h1`
     font-size: 1.2rem;
     margin: 0;
+    font-family: 'Sigmar One',cursive;
+    color: #5f5f5f;
 `;
 
 export const CardHeaderDate = styled.h2`
